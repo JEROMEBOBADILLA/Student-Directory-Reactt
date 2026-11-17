@@ -1,0 +1,135 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+/* Header */
+.header-section {
+  background: #2563eb;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.header-section h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.header-section p {
+  font-size: 16px;
+  color: #dbeafe;
+}
+
+/* Main Container */
+.container {
+  max-width: 1000px;
+  margin: 35px auto;
+  padding: 0 20px;
+  display: grid;
+  gap: 25px;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.card h2 {
+  font-size: 23px;
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+/* Form */
+.card form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.card label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  font-size: 15px;
+}
+
+.card input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* Button */
+.card button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background: #1d4ed8;
+}
+
+/* Student List */
+.card ul {
+  list-style: none;
+}
+
+.card li {
+  background: #f8fafc;
+  padding: 15px;
+  margin-bottom: 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #64748b;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .header-section h1 {
+    font-size: 25px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .container {
+    margin: 20px auto;
+  }
+}
